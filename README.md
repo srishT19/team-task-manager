@@ -32,7 +32,7 @@ Built as a coding assignment to demonstrate full-stack skills: auth, RBAC, REST 
 ### With Docker (easiest)
 
 ```bash
-git clone <repo>
+git clone https://github.com/srishT19/team-task-manager.git
 cd team-task-manager
 docker-compose up --build
 ```
@@ -78,9 +78,12 @@ npm run dev
 
 ## Deployment (Railway)
 
-Live URL: *(add your Railway frontend URL here after deploying)*
+**Live URL:** https://striking-fascination-production-c938.up.railway.app/
 
-Follow the `DEPLOYMENT_GUIDE.md` for step-by-step Railway deployment instructions.
+Deployed on Railway with:
+- PostgreSQL database (managed by Railway)
+- Backend service (Node.js + Express + Prisma)
+- Frontend service (React, served via nginx)
 
 ## API Endpoints
 
